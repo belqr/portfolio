@@ -8,6 +8,8 @@ export const Container = styled.div`
    display: flex;
    flex-direction: column;
    align-items: center;
+   position: sticky;
+   top: 0;
 
    .menu-mobile {
       width: 50px;
@@ -23,7 +25,6 @@ export const Container = styled.div`
          margin-top: 50px;
       }
    }
- 
 
    >div {
       margin-top: 125px;
@@ -46,9 +47,11 @@ export const Container = styled.div`
 
    @media (max-width: 375px) {
       background-color: #fff;
+      max-width: 0;
 
       .menu-mobile {
          display: inline-block;
+         margin-left: 75px;
       }
 
       >div {

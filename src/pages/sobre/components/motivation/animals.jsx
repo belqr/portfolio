@@ -1,4 +1,4 @@
-import Cat from '../../../../assets/images/cat-01.png';
+import Cat from '../../../../assets/images/cats/cat-01.png';
 import { Container } from './style';
 
 function Animals() {

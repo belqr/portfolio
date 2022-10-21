@@ -12,9 +12,9 @@ export const Container = styled.div`
       padding: 10px;
       width: fit-content;
       text-align: center;
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: 500;
-      font-family: 'Press Start 2P', cursive;
+      font-family: 'Concert One', cursive;
       border-bottom: 6px solid #C2E198;
    }
 

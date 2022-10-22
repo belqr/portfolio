@@ -4,11 +4,12 @@ import Home from '../pages/home/home';
 import About from '../pages/sobre/about';
 import Social from '../pages/social/social';
 import Contact from '../pages/contato/contact';
+import { Container } from './style';
 
 function Rota () {
   return (
     <Router>
-      <div style={{display: 'flex'}}>
+      <Container>
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -16,7 +17,7 @@ function Rota () {
           <Route path='/social' element={<Social />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-      </div>
+      </Container>
     </Router>
   )
 }

@@ -6,7 +6,9 @@ function Projects() {
       <Container>
          <h2> PROJETOS </h2>
          <section>
-         <img src={IMG01} alt='Projeto To-do List' />
+            <div className='box-img-projects'>
+               <img src={IMG01} alt='Projeto To-do List' />
+            </div>
             <div>
                <h3> To-do List </h3>
                <div>

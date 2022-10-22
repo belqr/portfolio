@@ -56,7 +56,8 @@ export const Container = styled.div`
       display: none;
    }
 
-   @media (max-width: 375px) {
+   @media (max-width: 768px) {
+
       flex-direction: column;
       justify-content: flex-start;
 

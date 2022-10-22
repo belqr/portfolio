@@ -51,4 +51,33 @@ export const Container = styled.div`
          }
       }
    }
+
+   @media (max-width: 768px) {
+      margin: 25px 0;
+
+      h2 {
+         margin-bottom: 25px;
+         font-size: 1.75rem;
+         border-bottom: 4px solid #C2E198;
+      }
+
+      section {
+         flex-direction: column;
+
+         div:first-child {
+            text-align: center;
+
+            >img {
+               margin: 25px 0;
+            }
+         }
+
+         div:last-child {
+
+            p {
+               font-size: 16px;
+            }
+         }
+      }
+   }
 `

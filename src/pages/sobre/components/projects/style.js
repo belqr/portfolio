@@ -26,12 +26,18 @@ export const Container = styled.div`
       -webkit-box-shadow: 9px 10px 6px 0px rgba(201,199,199,0.64);
       -moz-box-shadow: 9px 10px 6px 0px rgba(201,199,199,0.64);
       border-radius: 1em;
+      background-color: #fff;
+      border: 2px solid #C2E198;
 
-      img {
-         margin: 25px;
+      .box-img-projects {
          width: 100%;
-         max-width: 475px;
-         border-radius: 1em;
+         padding: 25px;
+
+         img {
+            width: 100%;
+            max-width: 475px;
+            border-radius: 1em;
+         }
       }
 
       >div {
@@ -40,6 +46,7 @@ export const Container = styled.div`
          display: flex;
          flex-direction: column; 
          align-items: center;
+         background-color: #fff;
 
          h3 {
             margin: 10px;
@@ -67,6 +74,42 @@ export const Container = styled.div`
                width: 100%;
                text-align: left;
                font-size: 14px;
+            }
+         }
+      }
+   }
+
+   @media (max-width: 768px) {
+      margin: 25px 0;
+
+      h2 {
+         margin-bottom: 25px;
+         font-size: 1.75rem;
+         border-bottom: 4px solid #C2E198;
+      }
+
+      section {
+         width: 85%;
+         flex-direction: column;
+         align-items: center;
+
+         >div {
+            margin: 15px;
+
+            h3 {
+               margin: 10px;
+               width: fit-content;
+               text-align: center;
+               font-size: 1.25rem;
+            }
+
+            >div {
+               margin: 25px;
+
+               h4 {
+                  margin-bottom: 15px;
+                  font-size: 1.25rem;
+               }
             }
          }
       }

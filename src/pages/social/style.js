@@ -35,18 +35,47 @@ export const Container = styled.div`
    }
 
    section {
-      margin-top: 25px;
+      margin-top: 50px;
       width: 100%;
       max-width: 700px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 25px;
-      border: 2px solid purple;
 
       >img {
          width: 100%;
          max-width: 200px;
+      }
+   }
+
+   @media (max-width: 768px) {
+      margin: 25px 0;
+
+      h2 {
+         width: min-content;
+         margin: 0 25px 25px 25px;
+         font-size: 1.75rem;
+         border-bottom: 4px solid #C2E198;
+      }
+
+      >div {
+         
+         hr {
+            border: 2px solid #C2E198;
+         }
+
+         p {
+            font-size: 16px;
+         }
+      }
+
+      section {
+
+         >img {
+            width: 100%;
+            max-width: 150px;
+         }
       }
    }
 `

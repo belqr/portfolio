@@ -24,7 +24,7 @@ export const Container = styled.div`
    }
 
    >div {
-      margin: 25px 25px 25px 0;;
+      margin: 25px 25px 25px 0;
       width: 100%;
       display: flex;
       flex-direction: column; 

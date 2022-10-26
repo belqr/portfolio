@@ -26,10 +26,13 @@ export const Container = styled.div`
 
       div:first-child {
          width: 100%; 
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
 
          >img {
             width: 100%;
-            max-width: 350px;
+            max-width: 200px;
          }
       }
 

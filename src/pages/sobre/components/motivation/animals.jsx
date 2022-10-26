@@ -1,4 +1,8 @@
-import Cat from '../../../../assets/images/cats/cat-01.png';
+import Cat01 from '../../../../assets/images/cats/cat-01.png';
+import Cat02 from '../../../../assets/images/cats/cat-02.png';
+import Cat03 from '../../../../assets/images/cats/cat-03.png';
+import Cat04 from '../../../../assets/images/cats/cat-04.png';
+import Cat05 from '../../../../assets/images/cats/cat-05.png';
 import { Container } from './style';
 
 function Animals() {
@@ -7,7 +11,11 @@ function Animals() {
          <h2> MOTIVAÇÃO </h2>
          <section>
             <div>
-               <img src={Cat} alt='Gata' />
+               <img src={Cat01} alt='Gata' />
+               <img src={Cat02} alt='Gata' />
+               <img src={Cat03} alt='Gat3' />
+               <img src={Cat04} alt='Gato' />
+               <img src={Cat05} alt='Gata' />
             </div>
             <div>
                <hr />

@@ -9,7 +9,7 @@ const customStyles = {
       left: '50%',
       transform: 'translateX(-50%)',
       borderRadius: '2em',
-      border: '3px solid #C2E198'
+      border: '3px solid #C2E198',
    },
  };
 
@@ -21,18 +21,19 @@ const ModalComponent = ({isOpen, setIsOpen, title, txt}) => {
    }
 
   return (
-   <Container>
-      <Modal
-         isOpen={isOpen.open}
-         onRequestClose={closeModal}
-         style={customStyles}
-         contentLabel='Example Modal'
-      >
-         <button onClick={closeModal}> X </button>
-         <h2> {title} </h2>
-         <p> {txt} </p>
+     <Modal
+     isOpen={isOpen.open}
+     onRequestClose={closeModal}
+     style={customStyles}
+     contentLabel='Example Modal'
+     >
+         <Container>
+            <button onClick={closeModal}> X </button>
+            <h2> {title} </h2>
+            <p> {txt} </p>
+         </Container>
       </Modal>
-   </Container>
+
   )
 }
 

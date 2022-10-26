@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+   padding-bottom: 15px;
 
    button {
       border: none;
@@ -21,5 +22,6 @@ export const Container = styled.div`
 
    p {
       font-size: 20px;
+      text-align: justify;
    }
 `

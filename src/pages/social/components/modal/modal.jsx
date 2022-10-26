@@ -3,7 +3,8 @@ import { Container } from './style';
 
 const customStyles = {
    content: {
-      width: '40%',
+      width: '100%',
+      maxWidth: '650px',
       height: '50%',
       top: '20%',
       left: '50%',

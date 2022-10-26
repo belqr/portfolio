@@ -17,19 +17,19 @@ function Social() {
 
    const List = [
       {
-         src: Block01, alt: 'Vida Terrestre', title: 'Vida Terrestre', txt: 'Proteger, restaurar e promover o uso sustentável dos ecossistemas terrestres, gerir de forma sustentável as florestas, combater a desertificação, travar e reverter a degradação dos solos e travar a perda da biodiversidade'
+         src: Block01, alt: 'Vida Terrestre', title: 'Vida Terrestre', txt: 'Proteger, restaurar e promover o uso sustentável dos ecossistemas terrestres, gerir de forma sustentável as florestas, combater a degradação de zonas de mata em proteção ambiental e travar a perda da biodiversidade nessas zonas.'
       },
       {
-         src: Block02, alt: 'Vida Animal', title: 'Vida Animal', txt: 'Adotar medidas urgentes para combater as alterações climáticas e os seus impactos' 
+         src: Block02, alt: 'Vida Animal', title: 'Vida Animal', txt: 'Adotar medidas urgentes para combater á violência aos animais, também como impedir o abandono animal, e criar  penas e multas para o tutor que abandonar o animal ou mantiver em situações insalubres. Criar ONGS com apoio da prefeitura para acolhimento de animais em situação de rua e criação de UBS (Unidade Básica de Saúde) voltada para atendimento animais de pequeno e grande porte.' 
       },
       {
-         src: Block03, alt: 'Vida Áquatica', title: 'Vida Áquatica', txt: 'Conservar e usar de forma sustentável os oceanos, mares e os recursos marinhos para o desenvolvimento sustentável'
+         src: Block03, alt: 'Vida Aquática', title: 'Vida Aquática', txt: 'Conservar e usar de forma sustentável a água, mantendo nossos córregos e lagos da cidade limpos para manter o equilíbrio aquático, e presevar a vida aquática.'
       },
       {
-         src: Block04, alt: 'Lazer', title: 'Lazer', txt: 'Garantir o acesso à saúde de qualidade e promover o bem-estar para todos, em todas as idades'
+         src: Block04, alt: 'Lazer', title: 'Lazer', txt: 'Garantir o acesso ao lazer para todos de forma inclusiva, limpando praças públicas, plantando árvores frutíferas para todos possam usufruir de forma consciente, e adicionando brinquedos para crianças, e quadras esportivas para todos.'
       },
       {
-         src: Block05, alt: 'Educação Sexual', title: 'Educação Sexual', txt: 'Garantir o acesso à educação inclusiva, de qualidade e equitativa, e promover oportunidades de aprendizagem ao longo da vida para todos'
+         src: Block05, alt: 'Educação Sexual', title: 'Educação Sexual', txt: 'Garantir o acesso à educação sexual para crianças, assim evitando absusos sexuais, e auxiliando e também incentivando crianças a denunciarem qualquer forma de abuso sofrida, dentro ou fora do convívio familiar.'
       },
    ]
 
